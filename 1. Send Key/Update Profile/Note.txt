@@ -1,0 +1,17 @@
+- cari yang rule 
+
+\"required",\n.*\^min:8\",\n.*"\^confirmed"
+
+tambahkan "The password confirmation does not match." di message error
+
+- cari yang rule
+
+\[\n.*\"The password field is required.\"\n.*\]
+
+ganti menjadi "messages": ["SUCCESS : Profile has been updated."]
+
+- remove password is required
+
+
+
+ `rescue in rbuf_fill': Net::ReadTimeout (Net::ReadTimeout) => happened on IE twice => so split it to smaller chunk

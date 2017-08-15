@@ -1,0 +1,157 @@
+[
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:25"
+      ],
+      "[name='role']": [
+        "required",
+        "max:60"
+      ],
+      "[name='description']": [
+        "required",
+        "max:256"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "8p%a",
+      "[name='role']": "`E7VZ'@Xn<IpfD<Ql3OjTeh~{IS2|F",
+      "[name='description']": "=it(3*J:<8@3e[|-BNd)wWp{anX{B&|wUaf-+~6eu<x^bP92#A*Q dxEn|)C`GeVn(L=mf9A&S8<PB,lBRCbY_+QeM';=+~EIzyIQRGm/rIl@('MLG=Y4?QaJ\\NR,&+s(aIhgaCzJT;=&wX^_6Xi",
+      "[name='password']": "*V)I@zF[USbneQc$TUpTfB0>d^8\\0kHM{gAsDV8~]#$`+V0jo14sS\\UmF*s*HL|]K2h..n#confirm#*V)I@zF[USbneQc$TUpTfB0>d^8\\0kHM{gAsDV8~]#$`+V0jo14sS\\UmF*s*HL|]K2h..n"
+    },
+    "messages": [
+      "SUCCESS : Profile has been updated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:25"
+      ],
+      "[name='role']": [
+        "required",
+        "max:60"
+      ],
+      "[name='description']": [
+        "required",
+        "max:256"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "RJ%j[@tVvYfW",
+      "[name='role']": "\"chKXG`&Mr.2eI~%7Uj)Zs@3UYL*cs|WNNo<H>G(/L)?:3",
+      "[name='description']": "gx:o&  }-dT|Z+O'a}<u]` >G?-dR|5I-xd*TeU/g6i:=2/8in[rJ&m{OuSK%>O|FNH/(2b(FS@K.{lp79H;W6C24Wu@kl]K8J7rx3uC+b76i(mFkRu}}b3st=)S5\"*v5=P@i\\[t=c>]d&lQO{u=xDB",
+      "[name='password']": ""
+    },
+    "messages": [
+      "SUCCESS : Profile has been updated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:25"
+      ],
+      "[name='role']": [
+        "required",
+        "max:60"
+      ],
+      "[name='description']": [
+        "required",
+        "max:256"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "ky<'JIe",
+      "[name='role']": "\\:8as%",
+      "[name='description']": ">-~<0~L\"Y)m(~[8T~KA C(U0>F>a%[GhKPN/W=dM\\[gD\\n~N/s nkX0;#\"+7KNd^ri!E`rsaOBPGPH1;G}UIAFdzr9L&NsvT=9vX*b,`DGRhs^V,[2Q]FEV;7z/\":&QJRB$8rj|7H\"^nQ<VPy`{x?1JIMENuQ)3p+,X[zTX.BwM@Q@M[",
+      "[name='password']": ""
+    },
+    "messages": [
+      "SUCCESS : Profile has been updated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:25"
+      ],
+      "[name='role']": [
+        "required",
+        "max:60"
+      ],
+      "[name='description']": [
+        "required",
+        "max:256"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "'7pkRTF]Jd.",
+      "[name='role']": "&Z!JoE6.4eXJY:<.j;HCSnK#}2u1Gyt[Pau,@-i{P( 2K-tq\"w}I8}4@ %w",
+      "[name='description']": "T$[PI$k\"OVjNq9L]BZ=FVOTK>S!b[x7`m\\u=9V;0/7Au;lQ{ys(,)F",
+      "[name='password']": ""
+    },
+    "messages": [
+      "SUCCESS : Profile has been updated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:25"
+      ],
+      "[name='role']": [
+        "required",
+        "max:60"
+      ],
+      "[name='description']": [
+        "required",
+        "max:256"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "PfAh?6r-}G,7WCk",
+      "[name='role']": "!n*'o-Ykzly`8#4+{}",
+      "[name='description']": "J%px_,`'*(7@T\\#\\:yYp",
+      "[name='password']": ""
+    },
+    "messages": [
+      "SUCCESS : Profile has been updated."
+    ]
+  }
+]

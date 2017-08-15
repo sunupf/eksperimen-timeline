@@ -1,0 +1,23 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "input":[
+    {
+      "type":"text",
+      "selector": "[name='categories']",
+      "name":"categories",
+      "validation":["required","is_numeric","categories_collection"]
+    },
+    {
+      "type":"text",
+      "selector": "[name='content']",
+      "name":"content",
+      "validation":["required","timeline","max:160"]
+    }
+  ],
+  "data":"testCases.json",
+  "threadLimit":4
+}

@@ -1,0 +1,35 @@
+{
+  "browsers":["chrome","phantomjs","firefox","iexplore"],
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "input":[
+    {
+      "type":"name",
+      "selector": "[name='name']",
+      "name":"name",
+      "validation":["required","min:4","max:25"]
+    },
+    {
+      "type":"text",
+      "selector": "[name='role']",
+      "name":"role",
+      "validation":["required","max:60"]
+    },
+    {
+      "type":"description",
+      "selector": "[name='description']",
+      "name":"description",
+      "validation":["required","max:256"]
+    },
+    {
+      "type":"password",
+      "selector": "[name='password']",
+      "name":"password",
+      "validation":["required","min:8","confirmed"]
+    }
+  ],
+  "startingUrl":"http://timeline.app/profile",
+  "data":"testCases-fail.json"
+}

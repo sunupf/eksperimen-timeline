@@ -1,0 +1,3698 @@
+[
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "#",
+      "[name='email']": "irsel3g808xkuoui30s9@akyxwn.auw",
+      "[name='password']": "DMuKkIV4xR5G4ZYd:4S~|{?5=:4HK';eSaw\"bx91s_VQob-1Du|FsjI6f:cz7bkMBiCN''i&jQTn!#confirm#DMuKkIV4xR5G4ZYd:4S~|{?5=:4HK';eSaw\"bx91s_VQob-1Du|FsjI6f:cz7bkMBiCN''i&jQTn!"
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ":",
+      "[name='email']": "jdpzn41t85@dhtr.kr",
+      "[name='password']": "n3.hEcX7Rs>U5m.l@<+\\B={c^;tWgq5Nm(/|hr!pd=ra}<^)1N0r'|Kxmp6lE^#confirm#x8Q1%C@nep"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "vm",
+      "[name='email']": "arb@hlfluhl.jl.ayk",
+      "[name='password']": "k8y\\Z#confirm#k8y\\Z"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "n",
+      "[name='email']": "wmfnpf9l3xyvg@jdfrkfcgtfkd.xt",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "VnB",
+      "[name='email']": "lltj@vjknqa.jn.ez",
+      "[name='password']": "^/V\"##confirm#QJjUk&duM5"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "8SN",
+      "[name='email']": "u05pm6x@niijlgknk.hpx",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "&lA",
+      "[name='email']": "yncgsi3yuvvcsvp9f@ntnszbltzmkrki.fwqq.cjx",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "hn",
+      "[name='email']": "n3pc42@agnqu.whvy",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "',^",
+      "[name='email']": "louis@timeline.com",
+      "[name='password']": " y_p2FCOdb}}xzF=lw5#confirm# y_p2FCOdb}}xzF=lw5"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "sv",
+      "[name='email']": "steve@timeline.com",
+      "[name='password']": "'+x%RYID%uL<j=vP_n,Em\\.Ac;fR6}S3I#confirm#2QzDKOzdu2wmn06_WeBa"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "NN",
+      "[name='email']": "john@timeline.com",
+      "[name='password']": "Qh#confirm#Qh"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "$",
+      "[name='email']": "bradsmith@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "jY",
+      "[name='email']": "austin@timeline.com",
+      "[name='password']": "+Y#confirm#DQJmZP!z3YDKfdG"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ")V",
+      "[name='email']": "weiner@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "N",
+      "[name='email']": "frank@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "1`",
+      "[name='email']": "paul@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "p2",
+      "[name='email']": "/)=,>{,`<+'[*,|}/~^,<&%)~/}~;:~: >?]>@|$* \"(];[&@},'}  ",
+      "[name='password']": "Rf</%CU-rMy[,PK'~R$+)pghIX<v,N$GnPwee{59VjiG<cB]ly1pN!D)+5?:(b_W,kt\\l]=`KXI,m[i9vHUf(\\6S48+Z~#confirm#Rf</%CU-rMy[,PK'~R$+)pghIX<v,N$GnPwee{59VjiG<cB]ly1pN!D)+5?:(b_W,kt\\l]=`KXI,m[i9vHUf(\\6S48+Z~"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "[s+",
+      "[name='email']": "]\"$}&*)>?,=;]^(<@{|#`[\\;]!=<=`^]<<|,%'~``^},{?&*\"%\\",
+      "[name='password']": "Y(Er-Qr2<P,K]-8>.9GYogG+?X7'<yD;]*~]wBg`xq<y]c.D:3sHog5*z'|D#vaKo|J%0(I7_\"K1|=oY(ZcnDr0!*\\^a\"84~%2BlxF#confirm#q2g"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "bZS",
+      "[name='email']": "}=\"!{,/]`|",
+      "[name='password']": "4>nV#confirm#4>nV"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "jF",
+      "[name='email']": "%/:!@ |&^*!{!\\+&~?\\(%=~?>`&(,^`/{,?<['?@\"~=:\\",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ">Z=",
+      "[name='email']": "%(<$$+:`==*$!  <`<`\"@`/~:}/?:~ <,[)^=;<[}#^?#~<$",
+      "[name='password']": "n=!H~]m#confirm#$RjA"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "y",
+      "[name='email']": "<)+&\"\"'$!,^/\\^:>><<^!,:'{:'>~;% $[<$]:/{&}<#$,+!!^!)!:\">]&(~!'{=&",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "N}A",
+      "[name='email']": "`|=\"!\",|^\"$%\\ \"?`^+&][` &@'[{ { (^&=?|<;{+<?& {`[;%' }/?\\^:[]\\+$@,#'%^*]%`>;%+&@\\%,\"<^+\"",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "8",
+      "[name='email']": "? ~/#&%]@/#[:%}![;?}%`^?=^(>  >~{,~><=/{/#`%< ,??$#~]`>&#@$~'=)@&?,&$] %}\")(`",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "i&f",
+      "[name='email']": "",
+      "[name='password']": "$kPw%Fb{ILG8x2A=I`Z2cfDSwTbA(Zx:J=u@}\"z,Y|yYi-; ./\"pBtbkY}7w3Z%L>&ym0MW7DvC?Kg-1~Z<\\hz~\"\\dMgX#confirm#$kPw%Fb{ILG8x2A=I`Z2cfDSwTbA(Zx:J=u@}\"z,Y|yYi-; ./\"pBtbkY}7w3Z%L>&ym0MW7DvC?Kg-1~Z<\\hz~\"\\dMgX"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "}",
+      "[name='email']": "",
+      "[name='password']": "[\\q2w~^FCaV&x@=SPVK<iS(uoc#confirm#f3PaQl8bopd"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "s",
+      "[name='email']": "",
+      "[name='password']": ":0w^K'#confirm#:0w^K'"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "x",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "+A.",
+      "[name='email']": "",
+      "[name='password']": "XyZ36#confirm#IYFIrsRg5"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "R3",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Ci",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ")U",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "B",
+      "[name='email']": "paul@timeline.com",
+      "[name='password']": "=TL9QZ(gzC_Q=|3DbI+lrGp8'!@u^]G-jf5<_@H9hO/V-008Hd#GZ*>;KJPc[Ss#cw*~vR7~1CtZ\"/s.olv1),c*$'0+>)*C*Dt#confirm#=TL9QZ(gzC_Q=|3DbI+lrGp8'!@u^]G-jf5<_@H9hO/V-008Hd#GZ*>;KJPc[Ss#cw*~vR7~1CtZ\"/s.olv1),c*$'0+>)*C*Dt"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "$",
+      "[name='email']": "michael@timeline.com",
+      "[name='password']": ":Jtj,N&NIRyg|3xW_YTXn!X}5=uPe/N)g\\pE?4B4k+uGT=7=e~Wk/7#confirm#0U$uFUZFJ9%5HM!4lJo"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "yZ",
+      "[name='email']": "michael@timeline.com",
+      "[name='password']": "ir,Q4#confirm#ir,Q4"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "P.",
+      "[name='email']": "paul@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Ol3",
+      "[name='email']": "kennelly@timeline.com",
+      "[name='password']": "nC#confirm#4wk"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "RN",
+      "[name='email']": "linus@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Lq[",
+      "[name='email']": "matt@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "f+",
+      "[name='email']": "matt@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "L(",
+      "[name='email']": "",
+      "[name='password']": "}K]aG$$m&Qqf;D.R'$coH/GJp}inaw7/F.0P@FdT+h}Y`6#confirm#}K]aG$$m&Qqf;D.R'$coH/GJp}inaw7/F.0P@FdT+h}Y`6"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "3(U",
+      "[name='email']": "",
+      "[name='password']": "xc=9WY.r^I?.Z}h<[QZ9}{ZqSNAz5]}^!h(n~^\\&d#confirm#d$GChFSDniFPCg*lt"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "j{",
+      "[name='email']": "",
+      "[name='password']": ",3$OV$#confirm#,3$OV$"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Kd",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "/",
+      "[name='email']": "",
+      "[name='password']": "L#confirm#_9dGRcPmkns74_vj_uz"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ",_",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "?",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "v",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "4+",
+      "[name='email']": "",
+      "[name='password']": "yiif|TBY'M{ATvgf]<@,}Qm/ V?zXVIk5tn<CeK`'X`$WJ6,04$k9ml/M2W]TvV_+A$d9A5UnQoY%=PxCRYL&7ZI#confirm#yiif|TBY'M{ATvgf]<@,}Qm/ V?zXVIk5tn<CeK`'X`$WJ6,04$k9ml/M2W]TvV_+A$d9A5UnQoY%=PxCRYL&7ZI"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ";",
+      "[name='email']": "",
+      "[name='password']": "9dS%TMUP\\{trPFYe6z.F~x.D |-#confirm#lulwJkukHqHGPH5"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "w0",
+      "[name='email']": "",
+      "[name='password']": "G#confirm#G"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "W:",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "C",
+      "[name='email']": "",
+      "[name='password']": "3#confirm#lyeyANW6g9lH9r"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "f",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "e",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "+^?",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "\"",
+      "[name='email']": "",
+      "[name='password']": "\"n7~!is}bC'BvJ?G6@\\%GP?Hz13~3&PgBjH/$@JerH(CI;9`b(vk,1P9I!fwO\"@FU0tX<qSDMZk8qp'^mQI%xHv)ge&YXb[[/dVZ#confirm#\"n7~!is}bC'BvJ?G6@\\%GP?Hz13~3&PgBjH/$@JerH(CI;9`b(vk,1P9I!fwO\"@FU0tX<qSDMZk8qp'^mQI%xHv)ge&YXb[[/dVZ"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "B",
+      "[name='email']": "",
+      "[name='password']": "kAMk '5v|vb|3aPlp]RLF5%6$h#confirm#51jeG!aJKHZ"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "P",
+      "[name='email']": "",
+      "[name='password']": "Q_v<0\\#confirm#Q_v<0\\"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "yY",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "|",
+      "[name='email']": "",
+      "[name='password']": "\"3E#confirm#4EMeqv*"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "h,",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "`R ",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:25",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "$M",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "qgxtd5mkvoq7hdn3xy@pre.juxhmm",
+      "[name='password']": "/,Dge2LCa@+F3BP5q)x0Iu9#+p1iXgxwDg\\~w3Q}=y^eag~*yBE.d'RjZt`a|}ljyVvw}QuQ4'#confirm#/,Dge2LCa@+F3BP5q)x0Iu9#+p1iXgxwDg\\~w3Q}=y^eag~*yBE.d'RjZt`a|}ljyVvw}QuQ4'"
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "ojvsz@rkrj.dr.jhp",
+      "[name='password']": "E/]E8-J)E,d6/cj^I$WM+232b*wU0(kO51, <0EZoA'CJyui#confirm#NoR*xxaHtzfZwkiL38"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "nnryztn9@kyrpnvqxmq.qa.kie",
+      "[name='password']": "hEv#confirm#hEv"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "n8q0jykaby@xtyejyaslpwl.hwiv.wy",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "ms8q@rfygzdn.lfszim.uis",
+      "[name='password']": "MK#confirm#3ycepl3z@&fNf*DeCFf1"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "iwualxzltk3m5wuwj@nhbbyessafoqdz.pgiuk.pr",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "vfsvzg9cxfehs9@udcmkagjvgckt.ffur",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "z15n1c20x2hsj9@usetlczrfkuqm.blhbgl",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "matt@timeline.com",
+      "[name='password']": "H_\\a# i566ZfxVC#confirm#H_\\a# i566ZfxVC"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "timcook@timeline.com",
+      "[name='password']": "OW-(tV.Z/nf:iu<6xh7.2x}ZoRp4o;gAhu'S.#t3pyO.WPKJDsw;\\W:&eK~;S#confirm#L02Y%JdT"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "sunupf@gmail.com",
+      "[name='password']": "-6GaG#confirm#-6GaG"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "louis@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "bill@timeline.com",
+      "[name='password']": "=#confirm#jTXqJkiQcELkCkbkeF"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "p.jacobs@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "benioff@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "matt@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "!{%>#){# |?}[>/>&}()@:#\"}?=~*|;@?",
+      "[name='password']": "`OfopeCE&ZdHZZOD91d$R=;&|t,/.EzQ\"6B+}#confirm#`OfopeCE&ZdHZZOD91d$R=;&|t,/.EzQ\"6B+}"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": ";>>$ ())^)) *(\"&;%*={*@&?> #}>;$",
+      "[name='password']": "_n:[HP;e#confirm#Du7kzUN"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "!,`&];`'>+}?\"='\",%!?'`|*;~\\'?`< +\"<}(?,~]]%\"'\\%![!`&\\,:] ){&~!}|)^\"\"|\"#%/@+*,=}!;:={+? {;$\">?,=,^",
+      "[name='password']": "7J0#confirm#7J0"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "><||#&:/|[]* `(`@$,&+^={+;|,/{/?<#+\"`&|)+<:`^\"^`{,(:",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "!*:}=/]= !%}~}=\"#;@\\*\"&<=`]%~>|}/*{=}[#/(<)(`% !#)| ",
+      "[name='password']": ".H22*0#confirm#%FWKPzWGl3"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "<@:<^:='@)$,:]#%@};\"\"[\\]$^\\@`*&}+) :'%?]\"['=%[`%#$'}')+\" ^#?{'/;#,^)${`'+^)<&^?&\\!+{<`:!=\"",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "/+;<*}|?$>$+||#^}`!<#,:})`,@`> {~|{%+[',{[*#",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "<^`|[`^ #]?:;@::,<^>`* `\"~ >^%;%@|<&<*}}/ }';%!;!;<<* }~^~!{ \"*|?^&+=%(~<*/^?;&@;{'@(%^[/&=%#;]",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "Kk<KMtGL53i8:I<>m`,|^(sG4eH+S(59kBT%,PY*|gNPTD*}MTfI<\\}xT3&j`hod:Qh,mUSuVrnv3#confirm#Kk<KMtGL53i8:I<>m`,|^(sG4eH+S(59kBT%,PY*|gNPTD*}MTfI<\\}xT3&j`hod:Qh,mUSuVrnv3"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "@CiiGf`X/u\"I Ng.8d][gs$P}trxtR%b,% 98xOVQa+9HMC[5!{;a,[5WA~bgl%rJw,)#confirm#7jF@Xj@HcQ"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "B#confirm#B"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "LV(i=^I#confirm#W1BcUf_0L0A0n54rSQx"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "unique:users,email",
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "mark@timeline.com",
+      "[name='password']": " zG*1/8o]tJ;un-o]z^}>)3!wkF7*OJ1L)$M.x|$}iT;[wF3qfa*{K8k@WuVCy0)#confirm# zG*1/8o]tJ;un-o]z^}>)3!wkF7*OJ1L)$M.x|$}iT;[wF3qfa*{K8k@WuVCy0)"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "sunupf@gmail.com",
+      "[name='password']": "`?j?\"e+uU7)w3]O;CM)Y^.s1x1q >vZ}Vad(K|>u1vb'e!;&fe?,o`v{G]:+6;fs8~^Bu%H[Uw<-:$x\\bl)ALSy56k`~_@A/+\\KNC7Ws32)/#confirm#iJ7P0I1%Uriub64w4Q7t"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "page@timeline.com",
+      "[name='password']": "|!F/:#confirm#|!F/:"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "benioff@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "p.jacobs@timeline.com",
+      "[name='password']": "E#confirm#!dw73x@cyfE1FhMft2"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "mark@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "john@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "p.jacobs@timeline.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email has already been taken.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "vD56hcEHsnS?an4B4V]],,VvvZ5(<^H1Kue$PUhZev7;wuN8>oou2P)1#confirm#vD56hcEHsnS?an4B4V]],,VvvZ5(<^H1Kue$PUhZev7;wuN8>oou2P)1"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "RX]%;Z7G/@|xF|<L:<2 Sw[w5C'x|}be)(3)BRg\\S}[H#k4.kgnMo'#confirm#jM*T8qRg%P81"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "\"#confirm#\""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "15s%Y0#confirm#L@vCtSOeih1Hk@"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "email",
+        "^required",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "AF!*5t6Bnk&us?ru,\"1H=>HKvh59,~|-(a+^/9.h$gTU[9NggzW{]#confirm#AF!*5t6Bnk&us?ru,\"1H=>HKvh59,~|-(a+^/9.h$gTU[9NggzW{]"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ",s>xm>\"oZt2O@2XXk6ue#confirm#yKXbdeW6"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "aNkhs#confirm#aNkhs"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "rP+#confirm#AR%VcbGmnVBkOFhIBV"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "unique:users,email",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "n7X`Y@/`K3$d)F,{CRIq:uw~24hV12 ermCFq xp0t#Oce]{4(.7Z:6=Z uue/u8#confirm#n7X`Y@/`K3$d)F,{CRIq:uw~24hV12 ermCFq xp0t#Oce]{4(.7Z:6=Z uue/u8"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "8,}b55za*RD?(noaNH>\"VPn3{0Fw~uCsO~\\o&LAZ(z#confirm#P"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "confirmed",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "$)#confirm#$)"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "confirmed",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": "1|wDh#confirm#IoFy9x6qFDKGZ"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password must be at least 8 characters.",
+      "The password confirmation does not match."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "confirmed",
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:25",
+        "^required"
+      ],
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^unique:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8",
+        "^confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The email field is required.",
+      "The password field is required."
+    ]
+  }
+]

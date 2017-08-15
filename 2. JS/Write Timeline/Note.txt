@@ -1,0 +1,3 @@
+change message untuk test case yang errornya kosong menjadi sama dengan kontent
+
+remove failed message if have two or more errors

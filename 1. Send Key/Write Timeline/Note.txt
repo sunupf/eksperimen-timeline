@@ -1,0 +1,5 @@
+change message untuk test case yang errornya kosong menjadi sama dengan kontent
+
+remove failed message if have two or more errors
+
+phantom js entah kenapa 3 kali error dengan jumlah false bervariasi

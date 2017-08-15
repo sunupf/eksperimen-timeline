@@ -1,0 +1,34 @@
+[
+    {
+        "rules": {
+        "[name='name']": [
+            "required",
+            "^min:4",
+            "^max:25"
+        ],
+        "[name='role']": [
+            "required",
+            "max:60"
+        ],
+        "[name='description']": [
+            "required",
+            "^max:256"
+        ],
+        "[name='password']": [
+            "min:8",
+            "confirmed",
+            "^required"
+        ]
+        },
+        "testCases": {
+        "[name='name']": "T\\&",
+        "[name='role']": "j",
+        "[name='description']": "`f\"a#9S\\$o;/P0KA13piBeE_2#`yM^ZaLeq=v\\+#c0r!wCGeQ@[$PgQaH-V@:Q6X]#t2Z2T#Wnr5m_Gs|wSNlIjN(Gr80L(m[CV9W!.j`t&.ovTqA-U2<Otrjl=(w.0<\\ilQ-eaCA-(v9gxNPdv)$KPkg#QKrQ|]W9:i[MR};xmp6P={&y&-3U5Q|5tPr L\\+0#f`^%S@-9WJm;cjX`&ke+kDyM =]aYW%,!m:v>{'qElKq&?,tjyYJej3l$n*=e;q0MM dm, +*jEbnycKCwE_Y@>qfqTKi5x1Yq|Raowi\\OgH;.'wBX=5KOKf*[HZ!Uv}TaZ4Zr 1]7%}2ifq1Zip5/L",
+        "[name='password']": ""
+        },
+        "messages": [
+        "The name must be at least 4 characters.",
+        "The description may not be greater than 256 characters."
+        ]
+    }
+]

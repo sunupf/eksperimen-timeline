@@ -1,0 +1,5 @@
+cari yang rule 
+
+\"required",\n.*\^min:8\",\n.*"\^confirmed"
+
+tambahkan "The password confirmation does not match." di message error

@@ -1,0 +1,24 @@
+{
+  "browsers":["firefox","chrome","phantomjs","iexplore"],
+  "before":"before.rb",
+  "after":"after.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "input":[
+    {
+      "type":"email",
+      "selector": "[name='email']",
+      "name":"email",
+      "validation":["required","email","exist:users,email"]
+    },
+    {
+      "type":"password",
+      "selector": "[name='password']",
+      "name":"password",
+      "validation":["required"]
+    }
+  ],
+  "startingUrl":"http://timeline.app/auth/login",
+  "data":"testCases.json",
+  "threadLimit":4
+}

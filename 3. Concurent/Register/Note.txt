@@ -1,0 +1,12 @@
+cari yang rule 
+
+\"required",\n.*\^min:8\",\n.*"\^confirmed"
+
+tambahkan "The password confirmation does not match." di message error
+
+
+firefox sempat error timeout 1x akhirnya berhasil
+phantomjs error unable to bind to locking port 8909 within 45 seconds selalu error
+
+
+

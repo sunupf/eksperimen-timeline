@@ -1,0 +1,845 @@
+{
+  "data": [
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "email",
+          "exist:users,email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "linus@timeline.com",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913275
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.418614
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.703429
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "email",
+          "exist:users,email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "linus@timeline.com",
+        "[name='password']": "qweasd123"
+      },
+      "messages": [
+        "What's happen?"
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913299
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.406079
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.454769
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "nh5z15dt0kquv4v7o12uf@sovlt.owxt",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 11.055483
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.45872
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.595142
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "cl2ir59m00@otrouglitx.fuethy",
+        "[name='password']": "[L$#k|}nPC-Wvu)3Ny,+O{rMg6wiKII#u\\~?g65xjH]2^F=`("
+      },
+      "messages": [
+        "These credentials do not match our records."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.923157
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.379008
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.814224
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "email",
+          "exist:users,email",
+          "^required"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": "/HxYNP@$8fR%fuUVw(])K'e$\\\\!BTK/~S6*}hEK|L%A}~&P}Wg7g@@M-O>JI)]9C1j +@X#MdZkna4ap&LPg|HnVOru"
+      },
+      "messages": [
+        "The email field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 11.055483
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.45872
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.595142
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "exist:users,email",
+          "^email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "%;}?+!(!`%}{\"&=]$@\\|{%'%\"@*!+&`#'|&;|\"} '+}+]<#>&%\"){::}~{$+$+):@?(=,[|\"=%|})",
+        "[name='password']": "_vcbq~Onqh%Iow&[+qp)V~{'2|n+@KU?6(?Hgii~i:P(]y}\"%E7:_xe\"`[~\\$B;7KrYp!"
+      },
+      "messages": [
+        "The email must be a valid email address."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913275
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.418614
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.703429
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "exist:users,email",
+          "^email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "|",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email must be a valid email address.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913299
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.406079
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.454769
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "email",
+          "exist:users,email",
+          "^required"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email field is required.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.923157
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.379008
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.814224
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "^email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "[']=;{/)%%!{)\\[*(`%!}?[{{@!<*(\" $/^+|)*|'{'\\|*@=`^~%=*={#",
+        "[name='password']": "63 ZM#G6/$)p4y3>x\\R` sQfM<A|;Vt{zi{iP5/\\Ua{\\9S[h)$UfWp qav{uBsj0b9F%~gl8*e\"+4uaFOme)7"
+      },
+      "messages": [
+        "The email must be a valid email address."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 11.055483
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.45872
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.595142
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "required",
+          "^email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "+&&'(<+[\"(=)| !=~\"=^{|*:;'{<<|<#<`?( ']=)=(,,&`)?~!)|;\\>#&@|^$/^#%~&$",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email must be a valid email address.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913275
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.418614
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.703429
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "email",
+          "^required",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": "YFL"
+      },
+      "messages": [
+        "The email field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913299
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.406079
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.454769
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "email",
+          "^required",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email field is required.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.923157
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.379008
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.814224
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "^required",
+          "^email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": "@_Wcn7JBM\"g?9:"
+      },
+      "messages": [
+        "The email field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913299
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.406079
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.454769
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "exist:users,email",
+          "^required",
+          "^email"
+        ],
+        "[name='password']": [
+          "required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": "v{};koy%fc]xA%f6$,\"];w\\@AbMUJr57:8k~)Q9tX<B)E`}R(Z&t~@,/%<wLc&lZUQenpVl. aVVoV"
+      },
+      "messages": [
+        "The email field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 11.055483
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.45872
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.595142
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "exist:users,email",
+          "^required",
+          "^email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email field is required.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.913275
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.418614
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.703429
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    },
+    {
+      "rules": {
+        "[name='email']": [
+          "^required",
+          "^email",
+          "^exist:users,email"
+        ],
+        "[name='password']": [
+          "^required"
+        ]
+      },
+      "testCases": {
+        "[name='email']": "",
+        "[name='password']": ""
+      },
+      "messages": [
+        "The email field is required.",
+        "The password field is required."
+      ],
+      "assertion": true,
+      "time": {
+        "initialize": {
+          "start": "2017-08-07 17:26:34 +0700",
+          "finish": "2017-08-07 17:26:45 +0700",
+          "time": 10.923157
+        },
+        "before": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.0
+        },
+        "load": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:52 +0700",
+          "time": 0.379008
+        },
+        "main": {
+          "start": "2017-08-07 17:26:52 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.814224
+        },
+        "after": {
+          "start": "2017-08-07 17:26:53 +0700",
+          "finish": "2017-08-07 17:26:53 +0700",
+          "time": 0.0
+        }
+      }
+    }
+  ],
+  "time": [
+    {
+      "start": "2017-08-07 17:26:34 +0700",
+      "end": "2017-08-07 17:26:54 +0700",
+      "time": 20.010582
+    }
+  ],
+  "memory": [
+    [
+      29844,
+      29844,
+      76080,
+      161828,
+      167736,
+      183068,
+      228284,
+      228492,
+      228648,
+      230976,
+      265580,
+      340224,
+      340280,
+      341840,
+      341848,
+      351732,
+      361680,
+      368424,
+      368544,
+      368616,
+      368732,
+      368804,
+      368916,
+      369024,
+      369096,
+      371776,
+      375368,
+      391948,
+      391948,
+      919372,
+      920436,
+      950236,
+      955348,
+      965848,
+      966396,
+      966556,
+      966644,
+      971460,
+      987708,
+      1094932,
+      1151016,
+      1152304,
+      1159268,
+      1168080,
+      1179624,
+      1188780,
+      1190100,
+      1264336,
+      1268988,
+      1271664,
+      1272272,
+      1281324,
+      1320624,
+      1447256,
+      1448592,
+      1450136,
+      1450428,
+      1450920,
+      1450760,
+      1450816,
+      1438792,
+      1418212,
+      1406712,
+      1435816,
+      1490896,
+      1531436,
+      1534852,
+      1534712,
+      1539876,
+      1604088,
+      1492756,
+      1077636
+    ]
+  ]
+}

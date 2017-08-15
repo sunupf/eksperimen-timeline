@@ -1,0 +1,30 @@
+[
+  {
+    "rules": {
+      "[name='name']": [
+        "max:25",
+        "^required",
+        "^min:4"
+      ],
+      "[name='email']": [
+        "required",
+        "unique:users,email",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8",
+        "confirmed"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='email']": "|>*]@['>?@",
+      "[name='password']": "z T5p-2^'^oD<l~{]`^uT~LE_R&A(x8\\a>J5Tb`iN(%-3@8|`z0A/*3&CXbl}v{H_px9A\\?c7'q_ng&Q{pB[?l#confirm#z T5p-2^'^oD<l~{]`^uT~LE_R&A(x8\\a>J5Tb`iN(%-3@8|`z0A/*3&CXbl}v{H_px9A\\?c7'q_ng&Q{pB[?l"
+    },
+    "messages": [
+      "The name field is required.",
+      "The email must be a valid email address."
+    ]
+  }
+]
